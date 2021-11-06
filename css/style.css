@@ -1,0 +1,555 @@
+*{
+margin:0;
+padding:0;
+}
+@font-face{
+    font-family:'Confetti Stream';
+    src:url(../font/Confetti_Stream.ttf) format('truetype');
+}
+body{
+    margin:0 auto;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: 35px;
+    background-color:#ECAF00;
+    font-family: "tahoma";
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    position:;
+}
+.logo{
+    width: 50px;
+    height: 35px;
+    position: absolute;
+}
+.menu{
+    margin-top: 0px;
+    margin-left: 130px;
+    text-decoration: none;
+}
+.home{
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    font-family: "tahoma";
+    font-size:15px;
+    color: white;
+    background: #ECAF00;
+}
+.home:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.home:active{
+    font-size: 20px;
+}
+.img{
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    font-family: "tahoma";
+    font-size:15px;
+    color: white;
+    background: #ECAF00;
+}
+.img:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.img:active{
+    font-size: 20px;
+}
+.perusahaan{
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    font-family: "tahoma";
+    font-size:15px;
+    color: white;
+    background: #ECAF00;
+}
+.perusahaan:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.perusahaan:active{
+    font-size: 20px;
+}
+.visi{
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    font-family: "tahoma";
+    font-size:15px;
+    color: white;
+    background: #ECAF00;
+}
+.visi:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.visi:active{
+    font-size: 20px;
+}
+.struktur{
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    font-family: "tahoma";
+    font-size:15px;
+    color: white;
+    background: #ECAF00;
+}
+.struktur:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.struktur:active{
+    font-size: 20px;
+}
+.cari{
+    width: 250px;
+    height: 36px;
+    border:0px;
+    font-family: "tahoma";
+    font-size: 13px;
+    color: #ECAF00;
+    margin-left: 185px;
+}
+.btn-cari{
+    width: 50px;
+    height: 36px;
+    border: 0px;
+    background: #fff;
+    font-family: "tahoma";
+    font-size: 13px;
+    margin-left: -5px;
+    border-left: solid 1px lightgray;
+    color:#ECAF00;
+}
+.btn-cari:hover{
+    color:#fff;
+    background: #ECAF00;
+    border-bottom: solid 3px white;
+    transition: all 0.3s;
+}
+.register{
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    font-family: "tahoma";
+    font-size: 15px;
+    color: white;
+    background: #ECAF00;
+}
+.register:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.register:active{
+    font-size: 20px;
+}
+.login{
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    font-family: "tahoma";
+    font-size: 15px;
+    color: white;
+    background: #ECAF00;
+}
+.login:hover{
+    border-bottom: solid 4px white; 
+    transition: all 0.2s;
+}
+.login:active{
+    font-size: 20px;
+}
+.profil{
+    width: 190px;
+    height: 190px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 140px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    position: absolute;
+}
+.profil2{
+    width: 190px;
+    height: 190px;
+    background: #fff;
+    margin-top: -100px;
+    margin-left: 140px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    position: absolute;
+}
+.tag{
+    width: 180px;
+    height: 90px;
+    margin-left: 5px;
+    background: rgba(000,000,000,.5);
+    position: absolute;
+    font-family: "tahoma";
+    color: white;
+    font-size: 15px;
+    margin-top: 95px;
+    text-align: center;
+    border-radius:0px 0px 500px 500px;
+}
+.me{
+    margin-top: 30px;
+}
+.foto-profil{
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+    position: absolute;
+    border-radius: 50%;
+}
+.kutipan{
+    width: 190px;
+    height: 190px;
+    background: #fff;
+    margin-top: 210px;
+    margin-left: 160px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: "tahoma";
+    font-size: 13px;
+}
+.kutipan2{
+    width: 190px;
+    height: 190px;
+    background: #fff;
+    margin-top: 100px;
+    margin-left: 160px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: "tahoma";
+    font-size: 13px;
+}
+.isi{
+    width: 600px;
+    height: 150px;
+    background: #fff;
+    margin-left: 350px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    position: absolute;
+}
+.komentar{
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    margin-left: 970px;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    font-family: "tahoma";
+    font-size: 12px;
+}
+.current-comment{
+    font-family: "Confetti Stream";
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px 0px 10px;
+    position: absolute;
+}
+.user-tag{
+    width: 100px;
+    height: 20px;
+    background: rgba(000,000,000,.5);
+    position: absolute;
+    font-family: "tahoma";
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 90px 0px 0px 10px;
+}
+.komen{
+    position:absolute;
+    border:0px;
+    border-bottom:solid 2px #ECAF00;
+    margin: 10px 0px 0px 120px;
+    height: 96px;
+    width: 460px;
+    font-family: "tahoma";
+    font-size: 13px;
+}
+.btn-komen{
+    position: absolute;
+    border:0px;
+    font-family: "tahoma";
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    border:solid 1px #ECAF00;
+    border-radius: 5px;
+    margin: 115px 0px 0px 480px;
+}
+.btn-komen:hover{
+    background: #ECAF00;
+    transition: all 0.2s;
+    color: white;
+}
+.isi2{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    background: #fff;
+    margin-left: 350px;
+    margin-top: 170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    font-family: "tahoma";
+    font-size: 15px;
+}
+.banner{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    background-image: url(../img/java-jazz-festival_26102015.jpg);
+    background-position:top center;
+    margin-top: 0px;
+}
+.isi-profil{
+    width: 600px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #ECAF00;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-family: "Confetti Stream";
+    font-size: 30px;
+    text-align: center;
+}
+.isip{
+    padding-bottom: 10px;
+    font-family: "tahoma";
+    font-size: 13px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.gambar{
+    width: 180px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.gambar:hover {
+    transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+	border:#00000;
+	border-radius:500px;
+    box-shadow: 0px 0px 20px 0px #969696;
+}
+.form{
+            width: 610px;
+            height: 610px;
+            background-color: #ECAF00;
+            margin-top: 50px;
+            margin-left: 350px;
+            border-radius: 50%;
+        }
+        .form1{
+            width: 600px;
+            height: 600px;
+            background-color: white;
+            margin-top: -605px;
+            margin-left: 354px;
+            border-radius: 50%;
+        }
+        .form2{
+            width: 590px;
+            height: 590px;
+            background-color: white;
+            margin-top: -595px;
+            margin-left: 359px;
+            border-radius: 50%;
+            font-family: "tahoma";
+            color: darkgray;
+        }
+        .nama{
+            width:410px;
+            height: 30px;
+            border: 0px;
+            border-bottom: solid 3px #ECAF00;
+            margin-left: 90px;
+            margin-top: 100px;
+            border-radius: 0px;
+            font-family: "tahoma";
+            font-size: 12px;
+        }
+.nama1{
+            width:410px;
+            height: 30px;
+            border: 0px;
+            border-bottom: solid 3px #ECAF00;
+            margin-left: 90px;
+            margin-top: 50px;
+            border-radius: 0px;
+            font-family: "tahoma";
+            font-size: 12px;
+        }
+        .email{
+            width: 410px;
+            height: 30px;
+            border: 0px;
+            border-bottom: solid 3px #ECAF00;
+            margin-left: 90px;
+            margin-top: 10px;
+            border-radius: 0px;
+            font-family: "tahoma";
+            font-size: 12px;
+        }
+.password{
+            width: 410px;
+            height: 30px;
+            border: 0px;
+            border-bottom: solid 3px #ECAF00;
+            margin-left: 90px;
+            margin-top: 10px;
+            border-radius: 0px;
+            font-family: "tahoma";
+            font-size: 12px;
+        }
+        .koment{
+            width: 410px;
+            height: 90px;
+            border: 0px;
+            box-shadow: 0px 0px 2px 0px darkseagreen;
+            margin-left: 90px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-family: "tahoma";
+            font-size: 12px;
+        }
+.submit{
+            width: 150px;
+            height: 50px;
+            border: 0px;
+            font-family: "tahoma";
+            font-size: 15px;
+            color: #ECAF00;
+            background-color: white;
+            border-radius: 5px;
+            border:solid 1px #ECAF00;
+            margin-top: 10px;
+            margin-left: 140px;
+        }
+        .submit:hover{
+            color: white;
+            background-color: #ECAF00;
+            transition: all 0.5s;
+        }
+        .reset{
+            width: 150px;
+            height: 50px;
+            border: 0px;
+            font-family: "tahoma";
+            font-size: 15px;
+            color: #ECAF00;
+            background-color: white;
+            border-radius: 5px;
+            border:solid 1px #ECAF00;
+            margin-top: 10px;
+            margin-left:5px;
+        }
+        .reset:hover{
+            color: white;
+            background-color: #ECAF00;
+            transition: all 0.5s;
+        }
+        .datang{
+            font-family:"Confetti Stream";
+            font-size: 50px;
+            color: white;
+            margin-left: 0px;
+            padding-top: 230px;
+            background-image: url(../img/applemusicandroid_0.jpg);
+            background-position: top center;
+            text-align: center;
+            border-radius: 500px 500px 0px 0px;
+        }
+        .container{
+            margin-left: 0px;
+        }
+.tgl{
+            width: 70px;
+            height: 25px;
+            font-family: "tahoma";
+            font-size: 13px;
+            border: 0px;
+            margin-left: 130px;
+    margin-top: 10px;
+            text-align: center;
+            
+        }
+        .bulan{
+            width: 110px;
+            height: 25px;
+            font-family: "tahoma";
+            font-size: 13px;
+            text-align: center;
+            border: 0px;
+            margin-left: 10px;
+           
+        }
+        .tahun{
+            width: 80px;
+            height: 25px;
+            font-family: "tahoma";
+            font-size: 13px;
+            border: 0px;
+            text-align: center;
+            margin-left: 10px;
+            
+        }
+#r{
+	border:0px;
+	width:410px;
+	height:30px;
+	font-family:"tahoma";
+	font-size:15px;
+	border-bottom: solid 3px  #ECAF00;
+    color: lightslategray;
+	margin-left:90px;
+	margin-top:10px;
+}
+.radio{
+             margin-left: 150px;
+            margin-top: 10px;
+        }
+        .radio2{
+            margin-left: 50px;
+        }
+.reg{
+    font-family: "Confetti Stream";
+    font-size: 40px;
+    color: #ECAF00;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 20px;
+}
